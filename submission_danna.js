@@ -3,7 +3,7 @@ const findSum = function(array) {
   let sum = array.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   })
-  return console.log(sum);
+  return sum;
 };
 
 const reduceLetters = (array) => {
@@ -83,7 +83,7 @@ const removeParenth = function(str) {
 
     };
   };
-  return console.log(str2.concat('', str3));
+  return str2.concat('', str3);
 };
 
 
